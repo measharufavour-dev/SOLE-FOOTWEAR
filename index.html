@@ -4156,7 +4156,8 @@
       /* ─── CARD BUILDER ─── */
       function card(p, g) {
         const wm = encodeURIComponent(
-          `Hello SOLECRAFT! 👋\n\nI'd like to order:\n👟 *${p.name}*\n💰 Price: ${fmt(p.price)}\n📦 Category: ${p.cat}\n\nPlease confirm availability and delivery details. Thank you!`,
+          `Hello SOLECRAFT! 👋\n\nI'd like to order:\n👟 *${p.name}*\n💰 Price: ${fmt(p.price)}\n📦 Category: ${p.cat}\n\nPlease confirm availability and delivery details.  May I make payment on this accoount? Name: Bello Ijah, Account Number: 2280803519 
+          Bank: United Bank of Africa (UBA)`,
         );
         const wa = `https://wa.me/${WA}?text=${wm}`;
         const stars = "★".repeat(p.stars) + "☆".repeat(5 - p.stars);
